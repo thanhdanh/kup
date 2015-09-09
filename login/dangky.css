@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	color:#333;
+	font-family:Gotham, "Helvetica Neue", "Roboto",Helvetica, Arial, sans-serif;
+	background-image:url(../images/background/back3.jpg) ;
+	position:relative;
+	
+}
+.wrap{
+	width: 100%;
+}
+#form_wapper{
+	position: absolute;
+	top: 32px;
+	left: 545px;
+	width: 500px;
+	font-size: 17px;
+	height: auto;
+	background: rgba(255,255,255,.1);
+}
+input[type=text]{
+	padding: 4px;	
+}
+input[type=password]{
+	padding: 4px;	
+}
+input[type=email]{
+	padding: 4px;	
+}
+#form_head{
+	font-weight:bold;
+	font-size:24px;
+	padding:10px;		
+	text-align: center;
+	color: #FFF;
+	background:#6F9;
+}
+#form_wapper #tb {
+	color: #F00;
+}
+.form_title{
+    padding:5px;
+	background:#666;
+	color:#fff;
+}
+.form_field{
+    padding:5px 0;
+}
+form select{
+    width:70px;
+}
+form .tinh{
+    width:150px;
+}
+#form_wapper span{
+  color:red;
+}
+.control{
+    margin-left: 150px;
+	padding: 10px;
+}
+.tick{
+	color:red;
+}
+.notify{
+	background:rgba(227,227,227,0.7);	
+	height: auto;
+	padding-left: 10px;
+	color: #D11D20;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin:0 0 20px 20px;
+}
+. > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: central;
+}
+table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display: table-cell;
+  float: none;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn{
+	display: inline-block;
+	  padding: 6px 12px;
+	  margin-bottom: 0;
+	  font-size: 14px;
+	  font-weight: normal;
+	  line-height: 1.42857143;
+	  text-align: center;
+	  white-space: nowrap;
+	  vertical-align: middle;
+	  -ms-touch-action: manipulation;
+		  touch-action: manipulation;
+	  cursor: pointer;
+	  -webkit-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+  opacity:0.6;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}

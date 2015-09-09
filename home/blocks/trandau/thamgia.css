@@ -1,0 +1,36 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;	
+}
+#form_wapper{
+	width:700px;
+	margin:	30px auto;
+	padding:5px;
+	font-size:17px;	
+	height:auto;
+	border: 1px solid #000000;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);		
+	box-sizing: border-box;
+}
+
+input[type=number]{	
+	padding: 3px;
+	width:50px;	
+}
+label{
+	color:rgba(35,88,170,1.00);
+
+}
+#form_head1{
+	font-weight:bold;
+	font-size:18px;
+	padding:15px;		
+	text-align: center;
+	color: #FFF;
+	background:#4D4B4B;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+textarea{	
+}

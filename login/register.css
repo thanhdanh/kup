@@ -1,0 +1,159 @@
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+	background-image:url(../images/background/back3.jpg);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-size: cover;
+	  font-family:Gotham, "Helvetica Neue","Roboto", Helvetica, Arial, sans-serif
+}
+#form-add{
+	width: 630px;
+	margin: 60px auto;
+	padding: 20px;	
+}
+.table {
+    border-collapse: collapse !important;
+  }
+  .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background:rgba(227,224,224,0.6);
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: central;
+  border-top: 1px solid #ddd;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display: table-cell;
+  float: none;
+}
+.table-bordered {
+  border: 1px solid #ddd;
+}
+.tieu-de{
+	border-bottom: 1px solid #CACACA;
+	border-top:0;
+	width: 100%;
+	height: auto;	
+	padding: 5px 0;
+	background:rgba(175,175,175,0.5)	;
+}
+.tieu-de span{
+	padding: 0 25px;
+}
+.icon{
+	width:27px;
+	height:27px;	
+}
+.btn{
+	display: inline-block;
+	  padding: 6px 12px;
+	  margin-bottom: 0;
+	  font-size: 14px;
+	  font-weight: normal;
+	  line-height: 1.42857143;
+	  text-align: center;
+	  white-space: nowrap;
+	  vertical-align: middle;
+	  -ms-touch-action: manipulation;
+		  touch-action: manipulation;
+	  cursor: pointer;
+	  -webkit-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  border-radius: 4px;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+  opacity:0.6;
+}
+.btn-primary{
+	color: #fff;
+	  background-color: #337ab7;
+	  border-color: #2e6da4;
+}
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+input[type="text"]
+{
+	padding: 3px;
+}
+input[type="password"]
+{
+	padding: 3px;
+}
+input[type="email"]
+{
+	padding: 3px;
+}
+.tick{
+	color: #DD0F12;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
